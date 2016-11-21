@@ -85,6 +85,7 @@ int escape(){
                 return 1;
             now_dis += 60;
             now_time += 3;
+            magic -= 2;
             break;
         case 6:
         case 7:
@@ -96,6 +97,7 @@ int escape(){
                 return 1;
             now_dis += 60;
             now_time += 2;
+            magic -= 6;
             break;
         default:
             break;
